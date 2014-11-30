@@ -957,7 +957,6 @@ class ForInStatement FINAL : public ForEachStatement,
   const BailoutId prepare_id_;
 };
 
-
 class ForOfStatement FINAL : public ForEachStatement {
  public:
   DECLARE_NODE_TYPE(ForOfStatement)
